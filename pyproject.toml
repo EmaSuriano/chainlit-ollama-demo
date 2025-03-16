@@ -9,3 +9,6 @@ dependencies = [
     "duckduckgo-search>=7.5.2",
     "openai-agents>=0.0.4",
 ]
+
+[tool.mypy]
+mypy_path = "src"
