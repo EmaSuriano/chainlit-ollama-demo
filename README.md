@@ -10,6 +10,14 @@ uv sync
 
 ## Local server
 
+### Simple app (Ollama only)
+
 ```bash
-chainlit run app.py
+chainlit run src/simple_app.py -w
+```
+
+### Agent app (using Open AI agents)
+
+```bash
+chainlit run src/agent_app.py -w
 ```
